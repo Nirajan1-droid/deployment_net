@@ -1,5 +1,5 @@
 # Use the official .NET runtime image to run the application
-FROM mcr.microsoft.com/dotnet/aspnet:6.0
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 
 # Copy all files from the current directory to the working directory in the container
